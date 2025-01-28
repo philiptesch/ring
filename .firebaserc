@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "ring-d8053": {
+      "hosting": {
+        "ringoffire": [
+          "ring-d8053"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "ring-d8053"
+  }
+}
