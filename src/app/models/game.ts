@@ -15,6 +15,16 @@ constructor() {
     }
     shuffle(this.stack)
 }
+
+public toJson() {
+    return {
+    player : this.players,
+    stack : this.stack,
+    playedCard : this.playedCard,
+    currentPlayer : this.currentPlayer   
+    }
+}
+
 }
 
 
