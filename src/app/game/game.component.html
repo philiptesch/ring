@@ -3,7 +3,7 @@
 
 <app-player 
 
-*ngFor="let player of game.players; let i = index;" [ngStyle]="{'top': (120 + (i * 90)) + 'px'}" class="player-Position"
+*ngFor="let player of game.players; let i = index;"  [ngStyle]="{'top': (120 + (i * 90)) + 'px'}" class="player-Position"
 [name]="player" [playerActive] =" i == game.currentPlayer">
 </app-player>
 
